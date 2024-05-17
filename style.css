@@ -1,0 +1,12 @@
+body {
+  background-color: #ffe4e1; 
+}
+H1 {
+    color: BROWN;
+    font-size:14px;
+}
+p {
+  color: GREY ;
+  width: 500px;
+  border: 1px solid black;
+}

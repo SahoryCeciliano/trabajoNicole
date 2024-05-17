@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Tarea Nicole Ceciliano Padilla</title>
+    <link rel="stylesheet" href="style.css">
+    <base href="https://www.utn.ac.cr">
+
+</head>
+
+<body>
+    <hgroup>
+        <h1>Estudiante Nicole Ceciliano Padilla</h1>
+
+        <h2>Tarea a realizar en la primer semana</h2>
+
+    </hgroup>
+    <p>Primera Tarea de Nicole Ceciliano</p>
+    <div>
+        <h2>Colores</h2>
+        <ul>
+            <li>verde</li>
+            <li>morado</li>
+        </ul>
+        <hr />
+        <h3>Colores2</h3>
+        <ol>
+            <li>verde</li>
+            <li>morado</li>
+        </ol>
+        <hr />
+    </div>
+    <div>
+        <h4>Imagen</h4>
+        <img width="100px" alt="NICOLE" src="C:\Users\ferna\OneDrive\Imágenes\tarea\IMAGENES\Screenshot_20240515_111448~2.jpg" />
+    </div>
+    <div>
+        <h5>Paginas</h5>
+        <ul>
+            <li>
+                <a href="tarea.html">Tarea</a>
+            </li>
+
+        </ul>
+    </div>
+    <hr />
+    <div>
+        <h6>Tablas</h6>
+        <table border="1">
+            <tr>
+                <td>NOMBRE</td>
+                <td>APELLIDO</td>
+                <td>EDAD</td>
+            </tr>
+            <tr>
+                <td>William</td>
+                <td>Ceciliano</td>
+                <td>59</td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9BMwcO6_hyA?si=P9Yexay1FoLjd7Vb" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media
+            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr />
+
+    <h6>USO DL, DT,DD</h6>
+    <dl>
+        <dt> MATEMATICA</dt>
+        <dd>Una de las naterias mas importantes  </dd>
+        <dt> Ingles</dt>
+        <dd>Una de los requisitos mas importantes  </dd>
+    </dl>
+    <hr />
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/220px-Cat_November_2010-1a.jpg" />
+        <figcaption> Los Gatos de monte son solo conocidos en la montaña </figcaption>
+    </figure>
+    <hr />
+    <details>
+        <summary>Se debe de presionar para supervisar mas detalles</summary>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/I6kmt8XLF4c?si=0vBxvaOX_hAUsYPx" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </details>
+    <hr />
+    <h6>USO DEL DETAILS</h6>
+    <dialog id="mdialogo">
+        <p> Este es una prueba del cuadro de dialogo</p>
+        <button id="cerrar">cerrar </button>
+    </dialog>
+    <button id="abrir">Mostrar CUADRO</button>
+    <script>
+        const dialogo = document.getElementById('mdialogo');
+        const botabrir = document.getElementById('abrir');
+        const botcerrar = document.getElementById('cerrar');
+
+        botabrir.addEventListener('click', function () {
+            dialogo.showModal();
+
+        });
+        botcerrar.addEventListener('click', function () {
+            dialogo.close();
+        });
+    </script>
+
+    <hr />
+    <h6>ETIQUETAS DE TEXTO</h6>
+    <P>
+        <dfn>Ingeniería de Software</dfn>es una de las ramas de las ciencias de la computación <br>
+        que estudia la creación de software confiable y
+        de calidad basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento
+    </P>
+    <pre>
+        ESTE TEXTO ES USANDO EL  PRE
+     </pre>
+
+    <Blockquote cite="https://universidades.cr/carreras/ingenieria-del-software">
+        El profesional en Ingeniería del Software domina distintos lenguajes y técnicas de programación computacional.
+        Además, desarrolla el proceso completo de producción de un programa de software,
+        lo cual incluye especificación de requerimientos, análisis, diseño, pruebas, configuración, mantenimiento y documentación.
+    </Blockquote>
+    <cite>LA ODISEA</cite> ES UNA OBRA MUY CONOCIDA
+    <q>"SE PUEDEN PONER COMILLAS"</q>
+    <abbr title="USO DE LA ETIQUETA DE ABBR">ABBR</abbr>
+
+    <p>Este es un ejemplo de código HTML utilizando la etiqueta <code>&lt;p&gt;</code> para un párrafo.</p>
+    <p>PARA COPIAR UN TEXTO USE  <kbd>CTRL + C </kbd> </p>
+    <B>SE ESCRIBE EN NEGRITA</B>
+    <strong>texto fuerte</strong>
+    <i>texto en cursiva</i>
+    <p>la eqtiqueta <em>em</em> nos  ayuda a enfatizar alguna parte de un texto </p>
+
+    <P>
+        <mark>Ingeniería de Software</mark>es una de las ramas de las ciencias de la computación
+        que estudia la creación de software confiable y
+        de calidad basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento
+    </P>
+    <P>
+        <small>Ingeniería de Software</small>es una de las ramas de las ciencias de la computación <br>
+        que estudia la creación de software confiable y
+        de calidad basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento
+    </P>
+
+    <p>El valor original era de <del>11000</del> <ins>8000</ins>.</p>
+    <p>La fórmula química del agua es H<sub>2</sub>O.</p>
+    <p>La ecuación para calcular el área de un círculo es A = πr<sup>2</sup>, donde r es el radio del círculo.</p>
+    <p>fecha de cumpleaños: <time>2000-02-18</time></p>
+    <hr />
+    <p>USO DEL DATA</p>
+    <h6>USO DEL data</h6>
+    <div id="miDiv" data-usuario="Juan" data-edad="30" data-ciudad="Madrid">
+        Información de usuario
+    </div>
+
+    <div id="infoUsuario">
+
+    </div>
+
+    <script>
+
+        var div = document.getElementById('miDiv');
+        var usuario = div.getAttribute('data-usuario');
+        var edad = div.getAttribute('data-edad');
+        var ciudad = div.getAttribute('data-ciudad');
+
+
+        var infoUsuarioDiv = document.getElementById('infoUsuario');
+        infoUsuarioDiv.innerHTML = 'Usuario: ' + usuario + '<br>' +
+            'Edad: ' + edad + '<br>' +
+            'Ciudad: ' + ciudad;
+    </script>
+    <script>
+         <h6>USO DEL span</h6>
+<span style="background-color: blue";> INGENIERIA DEL SOFTWARE </span>
+            <hr />
+<span style="color: red; font-weight: bold;">Nicole </span>
+    </script>
+    <hr />
+    <script>
+
+<a href="https://www.youtube.com/watch?v=ooBMdmMJ5Cg">Ir a video sobre ingenieria del software</a>
+    </script>
+    <hr />
+    <img src="https://m.media-amazon.com/images/I/61zSkwAvlXL._AC_UF894,1000_QL80_.jpg" usemap="#mapa-plano" alt="MAPA COSTA RICA" />
+    <map name="mapa-plano">
+        <area shape="rect" coords="0,0,50,50" href="pagina1.html" alt="Área 1">
+        <area shape="circle" coords="100,100,30" href="pagina2.html" alt="Área 2">
+        <area shape="poly" coords="200,200,250,250,200,300" href="pagina3.html" alt="Área 3">
+    </map>
+    <hr />
+    <picture>
+
+        <source media="(min-width: 1200px) srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/640px-Desktop_computer_clipart_-_Yellow_theme.svg.png">
+
+        <source media="(min-width: 768px) srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/640px-Desktop_computer_clipart_-_Yellow_theme.svg.png">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/640px-Desktop_computer_clipart_-_Yellow_theme.svg.png" style="width:auto;">
+    </picture>
+
+    <hr />
+    <canvas id="ejemplocanvas" width="500" height="400"></canvas>
+
+    <script>
+
+        var canvas = document.getElementById('ejemplocanvas');
+        var ctx = canvas.getContext('2d');
+
+
+        ctx.fillStyle = 'green'; //
+        ctx.fillRect(60, 60, 100, 100);
+
+
+        ctx.beginPath();
+        ctx.arc(300, 100, 50, 0, Math.PI * 2);
+        ctx.fillStyle = 'pink';
+        ctx.fill();
+
+
+        ctx.fillStyle = 'black';
+        ctx.font = '20px Arial';
+        ctx.fillText('EJEMPLO USANDO CANVAS', 120, 180);
+    </script>
+
+    <hr />
+    <svg width="400" height="400">
+        <circle cx="90" cy="90" r="70" fill="black" />
+    </svg>
+    <hr />
+    <audio controls>
+        <source src="C:\Users\ferna\OneDrive\Imágenes\tarea\IMAGENES\sunflower-street-drumloop-85bpm-163900.mp3">
+    </audio>
+    <hr />
+    <video width="640" height="360" controls>
+        <source src="https://www.youtube.com/watch?v=fV4DiAyExN0" type="video/mp4">
+        <track src="subtitulos_es.vtt" kind="subtitles" srclang="es" label="Español">
+    </video>
+    <hr />
+    <a href="/matricula">Enlace a la pagina de la UTN en matricula</a>
+    <hr />
+    <a href="/utn-transparente">Enlace a la pagina de la UTN de trasporte</a>
+
+    <hr />
+    <address>
+        Realizado por: <a href="sahoryceciliano2000@gmail.com"> NICOLE CECILIANO</a><br>
+        Telefono: <a href="25489863">25489863</a><br>
+    </address>
+    <hr />
+
+</body>
+</html>
